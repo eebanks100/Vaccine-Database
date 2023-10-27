@@ -4,7 +4,7 @@ A small Java / MySQL project which involved setting up a database on the local h
 
 
 ## Set-Up:
-1) MySQL Installer: `t https://dev.mysql.com/downloads/installer/`, leave the option `Developer Default` in the Select Products and Features window on.
+1) MySQL Installer: `https://dev.mysql.com/downloads/installer/`, leave the option `Developer Default` in the Select Products and Features window on.
 2) Open the MySQL Command Line Client
 3) Create a new user with the following command: `CREATE USER 'testuser'@'localhost' IDENTIFIED BY 'password'`;
 4) Grant that new user all the privileges on the database: `GRANT ALL PRIVILEGES ON vaccine_database . * TO 'testuser'@'localhost';`
